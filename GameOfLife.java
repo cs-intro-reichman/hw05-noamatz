@@ -74,9 +74,9 @@ public class GameOfLife {
 		int row = 1;
 		while (!in.isEmpty() && n < 100) {
 			for (int i = 2; i < cols; i++) {
-				String str = (in.readLine() != null) ? in.readLine() : "1";
+				String str = in.readLine();
 				int ind = 1;
-				if (str.length() != 0) {
+				if (str != null) {
 					while (ind < str.length()) {						
 						if (str.charAt(ind) == 'x') {
 							board[row][ind+1] = 1;
