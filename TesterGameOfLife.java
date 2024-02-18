@@ -1,3 +1,11 @@
+/*
+#feedback
+good work,
+A very clean and clear implementation!
+*/
+
+
+
 public class TesterGameOfLife {
 
     public static void main(String[] args) {
